@@ -1,0 +1,402 @@
+Region configured (None) != region detected ('ap-south-1')
+starttime 2025-07-13 17:50:04.292025
+<iterator object azure.core.paging.ItemPaged at 0x7fdeeaa860d0>
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/Soteria-Test-Env/providers/Microsoft.Storage/storageAccounts/selfhealtestcontainer', 'name': 'selfhealtestcontainer', 'type': 'Microsoft.Storage/storageAccounts', 'location': 'eastus', 'extended_location': None, 'tags': {}, 'plan': None, 'properties': None, 'kind': 'StorageV2', 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeeab1aca0>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name selfhealtestcontainer
+resource_type: Microsoft.Storage asset_type: Storageaccounts
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/Soteria-Test-Env/providers/Microsoft.Storage/storageAccounts/testsoteria', 'name': 'testsoteria', 'type': 'Microsoft.Storage/storageAccounts', 'location': 'eastus', 'extended_location': None, 'tags': {}, 'plan': None, 'properties': None, 'kind': 'StorageV2', 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeeab1ac40>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name testsoteria
+resource_type: Microsoft.Storage asset_type: Storageaccounts
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/Soteria-Test-Env/providers/Microsoft.ApiManagement/service/testapi12344787', 'name': 'testapi12344787', 'type': 'Microsoft.ApiManagement/service', 'location': 'eastus', 'extended_location': None, 'tags': {}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeeab1a5b0>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name testapi12344787
+resource_type: Microsoft.ApiManagement asset_type: Service
+________________
+resource: {'additional_properties': {'zones': ['1']}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/Soteria-Test-Env/providers/Microsoft.Compute/disks/inventorydisk', 'name': 'inventorydisk', 'type': 'Microsoft.Compute/disks', 'location': 'eastus', 'extended_location': None, 'tags': {}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeeab1ab80>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name inventorydisk
+resource_type: Microsoft.Compute asset_type: Disks
+________________
+batch: [('selfhealtestcontainer', 'microsoft.storage', 'Storageaccounts', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('testsoteria', 'microsoft.storage', 'Storageaccounts', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('testapi12344787', 'microsoft.apimanagement', 'Service', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('inventorydisk', 'microsoft.compute', 'Disks', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04')]
+<iterator object azure.core.paging.ItemPaged at 0x7fdeeac1b880>
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/networkSecurityGroups/NSG-VirtualMachines', 'name': 'NSG-VirtualMachines', 'type': 'Microsoft.Network/networkSecurityGroups', 'location': 'eastus', 'extended_location': None, 'tags': {'env': 'test', 'test': 'selfheal'}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name NSG-VirtualMachines
+resource_type: Microsoft.Network asset_type: Networksecuritygroups
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/networkSecurityGroups/NSG-VirtualMachines-2', 'name': 'NSG-VirtualMachines-2', 'type': 'Microsoft.Network/networkSecurityGroups', 'location': 'eastus', 'extended_location': None, 'tags': {'env': 'test', 'test': 'selfheal'}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name NSG-VirtualMachines-2
+resource_type: Microsoft.Network asset_type: Networksecuritygroups
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/networkSecurityGroups/NSG-VirtualMachines-3', 'name': 'NSG-VirtualMachines-3', 'type': 'Microsoft.Network/networkSecurityGroups', 'location': 'eastus', 'extended_location': None, 'tags': {}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name NSG-VirtualMachines-3
+resource_type: Microsoft.Network asset_type: Networksecuritygroups
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Storage/storageAccounts/soteriaflowlogs', 'name': 'soteriaflowlogs', 'type': 'Microsoft.Storage/storageAccounts', 'location': 'eastus', 'extended_location': None, 'tags': {'env': 'test', 'test': 'selfheal'}, 'plan': None, 'properties': None, 'kind': 'StorageV2', 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeea566f40>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name soteriaflowlogs
+resource_type: Microsoft.Storage asset_type: Storageaccounts
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/networkSecurityGroups/NSG-Database-1', 'name': 'NSG-Database-1', 'type': 'Microsoft.Network/networkSecurityGroups', 'location': 'eastus', 'extended_location': None, 'tags': {'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name NSG-Database-1
+resource_type: Microsoft.Network asset_type: Networksecuritygroups
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/networkSecurityGroups/NSG-Database-2', 'name': 'NSG-Database-2', 'type': 'Microsoft.Network/networkSecurityGroups', 'location': 'eastus', 'extended_location': None, 'tags': {'test': 'self-test'}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name NSG-Database-2
+resource_type: Microsoft.Network asset_type: Networksecuritygroups
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/publicIPAddresses/vnet-east-us-soteria-1-bastion', 'name': 'vnet-east-us-soteria-1-bastion', 'type': 'Microsoft.Network/publicIPAddresses', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeea566eb0>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name vnet-east-us-soteria-1-bastion
+resource_type: Microsoft.Network asset_type: Publicipaddresses
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/virtualNetworks/VNet-East-US-Soteria-1', 'name': 'VNet-East-US-Soteria-1', 'type': 'Microsoft.Network/virtualNetworks', 'location': 'eastus', 'extended_location': None, 'tags': {'test': 'self-heal', 'env': 'UAT'}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name VNet-East-US-Soteria-1
+resource_type: Microsoft.Network asset_type: Virtualnetworks
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/bastionHosts/VNet-East-US-Soteria-1-Bastion', 'name': 'VNet-East-US-Soteria-1-Bastion', 'type': 'Microsoft.Network/bastionHosts', 'location': 'eastus', 'extended_location': None, 'tags': {'test': 'self-heal', 'env': 'UAT'}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeea5664f0>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name VNet-East-US-Soteria-1-Bastion
+resource_type: Microsoft.Network asset_type: Bastionhosts
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Compute/sshPublicKeys/Soteria-1-Dev-VM1_key', 'name': 'Soteria-1-Dev-VM1_key', 'type': 'Microsoft.Compute/sshPublicKeys', 'location': 'eastus', 'extended_location': None, 'tags': {'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name Soteria-1-Dev-VM1_key
+resource_type: Microsoft.Compute asset_type: Sshpublickeys
+________________
+resource: {'additional_properties': {'zones': ['2']}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/publicIPAddresses/Soteria-1-Dev-VM1-ip', 'name': 'Soteria-1-Dev-VM1-ip', 'type': 'Microsoft.Network/publicIPAddresses', 'location': 'eastus', 'extended_location': None, 'tags': {'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeea566370>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name Soteria-1-Dev-VM1-ip
+resource_type: Microsoft.Network asset_type: Publicipaddresses
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/networkSecurityGroups/Soteria-1-Dev-VM1-nsg', 'name': 'Soteria-1-Dev-VM1-nsg', 'type': 'Microsoft.Network/networkSecurityGroups', 'location': 'eastus', 'extended_location': None, 'tags': {'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name Soteria-1-Dev-VM1-nsg
+resource_type: Microsoft.Network asset_type: Networksecuritygroups
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/networkInterfaces/soteria-1-dev-vm1792_z2', 'name': 'soteria-1-dev-vm1792_z2', 'type': 'Microsoft.Network/networkInterfaces', 'location': 'eastus', 'extended_location': None, 'tags': {'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name soteria-1-dev-vm1792_z2
+resource_type: Microsoft.Network asset_type: Networkinterfaces
+________________
+resource: {'additional_properties': {'zones': ['2']}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Compute/virtualMachines/Soteria-1-Dev-VM1', 'name': 'Soteria-1-Dev-VM1', 'type': 'Microsoft.Compute/virtualMachines', 'location': 'eastus', 'extended_location': None, 'tags': {'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Identity object at 0x7fdeea566250>, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name Soteria-1-Dev-VM1
+resource_type: Microsoft.Compute asset_type: Virtualmachines
+________________
+resource: {'additional_properties': {'zones': ['2']}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-EAST-US-SOTERIA-1/providers/Microsoft.Compute/disks/Soteria-1-Dev-VM1_OsDisk_1_0415eb52a07240dd9697d96de14bbf7f', 'name': 'Soteria-1-Dev-VM1_OsDisk_1_0415eb52a07240dd9697d96de14bbf7f', 'type': 'Microsoft.Compute/disks', 'location': 'eastus', 'extended_location': None, 'tags': {'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Compute/virtualMachines/Soteria-1-Dev-VM1', 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeea566190>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Sql/servers/sampledbdemoccs', 'name': 'sampledbdemoccs', 'type': 'Microsoft.Sql/servers', 'location': 'eastus', 'extended_location': None, 'tags': {'env': 'test', 'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': 'v12.0', 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name sampledbdemoccs
+resource_type: Microsoft.Sql asset_type: Servers
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Sql/servers/sampledbdemoccs/databases/SampleDB-1', 'name': 'sampledbdemoccs/SampleDB-1', 'type': 'Microsoft.Sql/servers/databases', 'location': 'eastus', 'extended_location': None, 'tags': {'env': 'test', 'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': 'v12.0,user,vcore,serverless', 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeea566ca0>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name sampledbdemoccs/SampleDB-1
+resource_type: Microsoft.Sql asset_type: Servers/databases
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Sql/servers/sampledbdemoccs/databases/master', 'name': 'sampledbdemoccs/master', 'type': 'Microsoft.Sql/servers/databases', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': 'v12.0,system', 'managed_by': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Sql/servers/sampledbdemoccs', 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeea5660d0>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+resource: {'additional_properties': {'systemData': {'createdAt': '2025-06-10T15:00:03.6584863Z'}}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.DBforMySQL/flexibleServers/samplemysqldbccs', 'name': 'samplemysqldbccs', 'type': 'Microsoft.DBforMySQL/flexibleServers', 'location': 'eastus', 'extended_location': None, 'tags': {}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeea566280>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name samplemysqldbccs
+resource_type: Microsoft.DBforMySQL asset_type: Flexibleservers
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Storage/storageAccounts/fmcgdeveastus', 'name': 'fmcgdeveastus', 'type': 'Microsoft.Storage/storageAccounts', 'location': 'eastus', 'extended_location': None, 'tags': {'env': 'test', 'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': 'StorageV2', 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeea566040>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name fmcgdeveastus
+resource_type: Microsoft.Storage asset_type: Storageaccounts
+________________
+resource: {'additional_properties': {'zones': ['2']}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/publicIPAddresses/bfsidev-east-us-1-ip', 'name': 'bfsidev-east-us-1-ip', 'type': 'Microsoft.Network/publicIPAddresses', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeea566310>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name bfsidev-east-us-1-ip
+resource_type: Microsoft.Network asset_type: Publicipaddresses
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/networkSecurityGroups/bfsidev-east-us-1-nsg', 'name': 'bfsidev-east-us-1-nsg', 'type': 'Microsoft.Network/networkSecurityGroups', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name bfsidev-east-us-1-nsg
+resource_type: Microsoft.Network asset_type: Networksecuritygroups
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/networkInterfaces/bfsidev-east-us-1123_z2', 'name': 'bfsidev-east-us-1123_z2', 'type': 'Microsoft.Network/networkInterfaces', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name bfsidev-east-us-1123_z2
+resource_type: Microsoft.Network asset_type: Networkinterfaces
+________________
+resource: {'additional_properties': {'zones': ['2']}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Compute/virtualMachines/bfsidev-east-us-1', 'name': 'bfsidev-east-us-1', 'type': 'Microsoft.Compute/virtualMachines', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name bfsidev-east-us-1
+resource_type: Microsoft.Compute asset_type: Virtualmachines
+________________
+resource: {'additional_properties': {'zones': ['2']}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-EAST-US-SOTERIA-1/providers/Microsoft.Compute/disks/bfsidev-east-us-1_OsDisk_1_dadb56f41fbf47529e40aa015d8fb734', 'name': 'bfsidev-east-us-1_OsDisk_1_dadb56f41fbf47529e40aa015d8fb734', 'type': 'Microsoft.Compute/disks', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Compute/virtualMachines/bfsidev-east-us-1', 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeeabd7490>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/networkSecurityGroups/basicNsgbfsidev-east-us-1124_z2', 'name': 'basicNsgbfsidev-east-us-1124_z2', 'type': 'Microsoft.Network/networkSecurityGroups', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name basicNsgbfsidev-east-us-1124_z2
+resource_type: Microsoft.Network asset_type: Networksecuritygroups
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/networkInterfaces/bfsidev-east-us-1124_z2', 'name': 'bfsidev-east-us-1124_z2', 'type': 'Microsoft.Network/networkInterfaces', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name bfsidev-east-us-1124_z2
+resource_type: Microsoft.Network asset_type: Networkinterfaces
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/networkSecurityGroups/basicNsgsoteria-1-dev-vm1793_z2', 'name': 'basicNsgsoteria-1-dev-vm1793_z2', 'type': 'Microsoft.Network/networkSecurityGroups', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name basicNsgsoteria-1-dev-vm1793_z2
+resource_type: Microsoft.Network asset_type: Networksecuritygroups
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/networkInterfaces/soteria-1-dev-vm1793_z2', 'name': 'soteria-1-dev-vm1793_z2', 'type': 'Microsoft.Network/networkInterfaces', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name soteria-1-dev-vm1793_z2
+resource_type: Microsoft.Network asset_type: Networkinterfaces
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/networkSecurityGroups/wiproccs-dsvm-nsg', 'name': 'wiproccs-dsvm-nsg', 'type': 'Microsoft.Network/networkSecurityGroups', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name wiproccs-dsvm-nsg
+resource_type: Microsoft.Network asset_type: Networksecuritygroups
+________________
+resource: {'additional_properties': {'zones': ['1']}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/publicIPAddresses/wiproccs-dsvm-ip', 'name': 'wiproccs-dsvm-ip', 'type': 'Microsoft.Network/publicIPAddresses', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeeabd7250>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name wiproccs-dsvm-ip
+resource_type: Microsoft.Network asset_type: Publicipaddresses
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/networkInterfaces/wiproccs-dsvm271_z1', 'name': 'wiproccs-dsvm271_z1', 'type': 'Microsoft.Network/networkInterfaces', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name wiproccs-dsvm271_z1
+resource_type: Microsoft.Network asset_type: Networkinterfaces
+________________
+resource: {'additional_properties': {'zones': ['1']}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Compute/virtualMachines/wiproccs-dsvm', 'name': 'wiproccs-dsvm', 'type': 'Microsoft.Compute/virtualMachines', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name wiproccs-dsvm
+resource_type: Microsoft.Compute asset_type: Virtualmachines
+________________
+resource: {'additional_properties': {'zones': ['1']}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-EAST-US-SOTERIA-1/providers/Microsoft.Compute/disks/wiproccs-dsvm_OsDisk_1_5702e1652f7b4109a7d178ca2ab73745', 'name': 'wiproccs-dsvm_OsDisk_1_5702e1652f7b4109a7d178ca2ab73745', 'type': 'Microsoft.Compute/disks', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Compute/virtualMachines/wiproccs-dsvm', 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeeabd7760>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+resource: {'additional_properties': {'systemData': {'createdBy': 'DI20239023@wipro.com', 'createdByType': 'User', 'createdAt': '2025-07-06T15:13:08.2256356Z', 'lastModifiedBy': 'DI20239023@wipro.com', 'lastModifiedByType': 'User', 'lastModifiedAt': '2025-07-06T15:13:08.2256356Z'}}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.ApiManagement/service/soteriaapi', 'name': 'soteriaapi', 'type': 'Microsoft.ApiManagement/service', 'location': 'eastus', 'extended_location': None, 'tags': {}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeeabd7af0>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name soteriaapi
+resource_type: Microsoft.ApiManagement asset_type: Service
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/networkSecurityGroups/soteria-vm-01-nsg', 'name': 'soteria-vm-01-nsg', 'type': 'Microsoft.Network/networkSecurityGroups', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name soteria-vm-01-nsg
+resource_type: Microsoft.Network asset_type: Networksecuritygroups
+________________
+resource: {'additional_properties': {'zones': ['1']}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/publicIPAddresses/soteria-vm-01-ip', 'name': 'soteria-vm-01-ip', 'type': 'Microsoft.Network/publicIPAddresses', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeeabd7b20>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name soteria-vm-01-ip
+resource_type: Microsoft.Network asset_type: Publicipaddresses
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/networkInterfaces/soteria-vm-01444_z1', 'name': 'soteria-vm-01444_z1', 'type': 'Microsoft.Network/networkInterfaces', 'location': 'eastus', 'extended_location': None, 'tags': {}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name soteria-vm-01444_z1
+resource_type: Microsoft.Network asset_type: Networkinterfaces
+________________
+resource: {'additional_properties': {'zones': ['1']}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Compute/virtualMachines/soteria-vm-01', 'name': 'soteria-vm-01', 'type': 'Microsoft.Compute/virtualMachines', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name soteria-vm-01
+resource_type: Microsoft.Compute asset_type: Virtualmachines
+________________
+resource: {'additional_properties': {'zones': ['1']}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-EAST-US-SOTERIA-1/providers/Microsoft.Compute/disks/soteria-vm-01_OsDisk_1_163d9f166118484b9fe707869f1d0277', 'name': 'soteria-vm-01_OsDisk_1_163d9f166118484b9fe707869f1d0277', 'type': 'Microsoft.Compute/disks', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Compute/virtualMachines/soteria-vm-01', 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeeabd7340>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/networkSecurityGroups/soteria-vm-02-nsg', 'name': 'soteria-vm-02-nsg', 'type': 'Microsoft.Network/networkSecurityGroups', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name soteria-vm-02-nsg
+resource_type: Microsoft.Network asset_type: Networksecuritygroups
+________________
+resource: {'additional_properties': {'zones': ['1']}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/publicIPAddresses/soteria-vm-02-ip', 'name': 'soteria-vm-02-ip', 'type': 'Microsoft.Network/publicIPAddresses', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeeaa860d0>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name soteria-vm-02-ip
+resource_type: Microsoft.Network asset_type: Publicipaddresses
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/networkInterfaces/soteria-vm-02318_z1', 'name': 'soteria-vm-02318_z1', 'type': 'Microsoft.Network/networkInterfaces', 'location': 'eastus', 'extended_location': None, 'tags': {}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name soteria-vm-02318_z1
+resource_type: Microsoft.Network asset_type: Networkinterfaces
+________________
+resource: {'additional_properties': {'zones': ['1']}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Compute/virtualMachines/soteria-vm-02', 'name': 'soteria-vm-02', 'type': 'Microsoft.Compute/virtualMachines', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name soteria-vm-02
+resource_type: Microsoft.Compute asset_type: Virtualmachines
+________________
+resource: {'additional_properties': {'zones': ['1']}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-EAST-US-SOTERIA-1/providers/Microsoft.Compute/disks/soteria-vm-02_OsDisk_1_87dffbf7601042d38c91cc3fab2c3c9e', 'name': 'soteria-vm-02_OsDisk_1_87dffbf7601042d38c91cc3fab2c3c9e', 'type': 'Microsoft.Compute/disks', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Compute/virtualMachines/soteria-vm-02', 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeeaa861c0>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/publicIPAddresses/soteria-lb-pip', 'name': 'soteria-lb-pip', 'type': 'Microsoft.Network/publicIPAddresses', 'location': 'eastus', 'extended_location': None, 'tags': {'env': 'test', 'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeeaa86160>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name soteria-lb-pip
+resource_type: Microsoft.Network asset_type: Publicipaddresses
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/loadBalancers/soteria-lb-01', 'name': 'soteria-lb-01', 'type': 'Microsoft.Network/loadBalancers', 'location': 'eastus', 'extended_location': None, 'tags': {'env': 'test', 'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeeaa86130>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name soteria-lb-01
+resource_type: Microsoft.Network asset_type: Loadbalancers
+________________
+resource: {'additional_properties': {'systemData': {'createdAt': '2025-07-06T14:59:23.9282843Z'}}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.DBforPostgreSQL/flexibleServers/bfsipostgresql', 'name': 'bfsipostgresql', 'type': 'Microsoft.DBforPostgreSQL/flexibleServers', 'location': 'eastus', 'extended_location': None, 'tags': {'env': 'test', 'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeeaa86e80>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name bfsipostgresql
+resource_type: Microsoft.DBforPostgreSQL asset_type: Flexibleservers
+________________
+resource: {'additional_properties': {'systemData': {'createdBy': 'DI20239023@wipro.com', 'createdByType': 'User', 'createdAt': '2025-07-06T15:06:53.7539941Z', 'lastModifiedBy': 'YO20583720@wipro.com', 'lastModifiedByType': 'User', 'lastModifiedAt': '2025-07-08T07:23:36.5820344Z'}}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.DBforPostgreSQL/serverGroupsv2/traecluster', 'name': 'traecluster', 'type': 'Microsoft.DBforPostgreSQL/serverGroupsv2', 'location': 'eastus', 'extended_location': None, 'tags': {'env': 'test', 'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name traecluster
+resource_type: Microsoft.DBforPostgreSQL asset_type: Servergroupsv2
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.ApiManagement/service/traeapi', 'name': 'traeapi', 'type': 'Microsoft.ApiManagement/service', 'location': 'eastus', 'extended_location': None, 'tags': {}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeeaa86c40>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name traeapi
+resource_type: Microsoft.ApiManagement asset_type: Service
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.KeyVault/vaults/asset1', 'name': 'asset1', 'type': 'Microsoft.KeyVault/vaults', 'location': 'eastus', 'extended_location': None, 'tags': {'env': 'test', 'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name asset1
+resource_type: Microsoft.KeyVault asset_type: Vaults
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.HealthcareApis/services/wiproccsfhir', 'name': 'wiproccsfhir', 'type': 'Microsoft.HealthcareApis/services', 'location': 'eastus', 'extended_location': None, 'tags': {'env': 'test', 'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': 'fhir-R4', 'managed_by': None, 'sku': None, 'identity': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Identity object at 0x7fdeea90ca90>, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name wiproccsfhir
+resource_type: Microsoft.HealthcareApis asset_type: Services
+________________
+resource: {'additional_properties': {'systemData': {'createdBy': 'DI20239023@wipro.com', 'createdByType': 'User', 'createdAt': '2025-07-06T16:12:58.1984386Z', 'lastModifiedBy': 'DI20239023@wipro.com', 'lastModifiedByType': 'User', 'lastModifiedAt': '2025-07-06T16:12:58.1984386Z'}}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.SignalRService/SignalR/traeasset', 'name': 'traeasset', 'type': 'Microsoft.SignalRService/SignalR', 'location': 'eastus', 'extended_location': None, 'tags': {'env': 'test', 'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': 'SignalR', 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeea90cbe0>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name traeasset
+resource_type: Microsoft.SignalRService asset_type: Signalr
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Web/serverFarms/ASP-RGEastUSSoteria1-a1d8', 'name': 'ASP-RGEastUSSoteria1-a1d8', 'type': 'Microsoft.Web/serverFarms', 'location': 'eastus', 'extended_location': None, 'tags': {'env': 'test', 'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': 'linux', 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeea90cb80>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name ASP-RGEastUSSoteria1-a1d8
+resource_type: Microsoft.Web asset_type: Serverfarms
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Web/sites/HaloApp', 'name': 'HaloApp', 'type': 'Microsoft.Web/sites', 'location': 'eastus', 'extended_location': None, 'tags': {'env': 'test', 'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': 'app,linux', 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name HaloApp
+resource_type: Microsoft.Web asset_type: Sites
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Web/serverFarms/ASP-RGEastUSSoteria1-90cc', 'name': 'ASP-RGEastUSSoteria1-90cc', 'type': 'Microsoft.Web/serverFarms', 'location': 'eastus', 'extended_location': None, 'tags': {'env': 'test', 'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': 'app', 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeea90cd30>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name ASP-RGEastUSSoteria1-90cc
+resource_type: Microsoft.Web asset_type: Serverfarms
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Web/sites/lab45ChatApp', 'name': 'lab45ChatApp', 'type': 'Microsoft.Web/sites', 'location': 'eastus', 'extended_location': None, 'tags': {'env': 'test', 'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': 'app', 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name lab45ChatApp
+resource_type: Microsoft.Web asset_type: Sites
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.ServiceBus/namespaces/traeservicebus', 'name': 'traeservicebus', 'type': 'Microsoft.ServiceBus/namespaces', 'location': 'eastus', 'extended_location': None, 'tags': {'env': 'test', 'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeea90c9a0>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name traeservicebus
+resource_type: Microsoft.ServiceBus asset_type: Namespaces
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.ServiceBus/namespaces/soteriaservicebus', 'name': 'soteriaservicebus', 'type': 'Microsoft.ServiceBus/namespaces', 'location': 'eastus', 'extended_location': None, 'tags': {'env': 'test', 'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeea90cd00>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name soteriaservicebus
+resource_type: Microsoft.ServiceBus asset_type: Namespaces
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.EventHub/namespaces/traeeventhubs', 'name': 'traeeventhubs', 'type': 'Microsoft.EventHub/namespaces', 'location': 'eastus', 'extended_location': None, 'tags': {'env': 'test', 'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeea90ce20>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name traeeventhubs
+resource_type: Microsoft.EventHub asset_type: Namespaces
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/microsoft.insights/components/traeappinsights', 'name': 'traeappinsights', 'type': 'microsoft.insights/components', 'location': 'eastus', 'extended_location': None, 'tags': {'env': 'test', 'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': 'web', 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name traeappinsights
+resource_type: microsoft.insights asset_type: Components
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/microsoft.insights/components/soteriaappinsights', 'name': 'soteriaappinsights', 'type': 'microsoft.insights/components', 'location': 'eastus', 'extended_location': None, 'tags': {'env': 'test', 'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': 'web', 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name soteriaappinsights
+resource_type: microsoft.insights asset_type: Components
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/microsoft.insights/actiongroups/Application Insights Smart Detection', 'name': 'Application Insights Smart Detection', 'type': 'microsoft.insights/actiongroups', 'location': 'global', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name Application Insights Smart Detection
+resource_type: microsoft.insights asset_type: Actiongroups
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/publicIPAddresses/pip-vnet-east-us-soteria-1-eastus-private-subnet-1-soteria-1', 'name': 'pip-vnet-east-us-soteria-1-eastus-private-subnet-1-soteria-1', 'type': 'Microsoft.Network/publicIPAddresses', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeea90c3a0>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name pip-vnet-east-us-soteria-1-eastus-private-subnet-1-soteria-1
+resource_type: Microsoft.Network asset_type: Publicipaddresses
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Network/networkInterfaces/soteria-win-nic', 'name': 'soteria-win-nic', 'type': 'Microsoft.Network/networkInterfaces', 'location': 'eastus', 'extended_location': None, 'tags': {}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name soteria-win-nic
+resource_type: Microsoft.Network asset_type: Networkinterfaces
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Compute/virtualMachines/soteria-win', 'name': 'soteria-win', 'type': 'Microsoft.Compute/virtualMachines', 'location': 'eastus', 'extended_location': None, 'tags': {}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name soteria-win
+resource_type: Microsoft.Compute asset_type: Virtualmachines
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-EAST-US-SOTERIA-1/providers/Microsoft.Compute/disks/soteria-win_OsDisk_1_60fb41f491ed4fa5937dfad18088e81a', 'name': 'soteria-win_OsDisk_1_60fb41f491ed4fa5937dfad18088e81a', 'type': 'Microsoft.Compute/disks', 'location': 'eastus', 'extended_location': None, 'tags': {}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Compute/virtualMachines/soteria-win', 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeea90cf10>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+batch: [('NSG-VirtualMachines', 'microsoft.network', 'Networksecuritygroups', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('NSG-VirtualMachines-2', 'microsoft.network', 'Networksecuritygroups', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('NSG-VirtualMachines-3', 'microsoft.network', 'Networksecuritygroups', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('soteriaflowlogs', 'microsoft.storage', 'Storageaccounts', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('NSG-Database-1', 'microsoft.network', 'Networksecuritygroups', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('NSG-Database-2', 'microsoft.network', 'Networksecuritygroups', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('vnet-east-us-soteria-1-bastion', 'microsoft.network', 'Publicipaddresses', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('VNet-East-US-Soteria-1', 'microsoft.network', 'Virtualnetworks', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('VNet-East-US-Soteria-1-Bastion', 'microsoft.network', 'Bastionhosts', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('Soteria-1-Dev-VM1_key', 'microsoft.compute', 'Sshpublickeys', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('Soteria-1-Dev-VM1-ip', 'microsoft.network', 'Publicipaddresses', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('Soteria-1-Dev-VM1-nsg', 'microsoft.network', 'Networksecuritygroups', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('soteria-1-dev-vm1792_z2', 'microsoft.network', 'Networkinterfaces', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('Soteria-1-Dev-VM1', 'microsoft.compute', 'Virtualmachines', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('Soteria-1-Dev-VM1_OsDisk_1_0415eb52a07240dd9697d96de14bbf7f', 'microsoft.compute', 'Virtualmachines', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Compute/virtualMachines/Soteria-1-Dev-VM1', '2025-07-13 17:50:04', '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Compute/virtualMachines/Soteria-1-Dev-VM1', '2025-07-13 17:50:04'), ('sampledbdemoccs', 'microsoft.sql', 'Servers', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('sampledbdemoccs/SampleDB-1', 'microsoft.sql', 'Servers/databases', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('sampledbdemoccs/master', 'microsoft.sql', 'Servers/databases', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Sql/servers/sampledbdemoccs', '2025-07-13 17:50:04', '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Sql/servers/sampledbdemoccs', '2025-07-13 17:50:04'), ('samplemysqldbccs', 'microsoft.dbformysql', 'Flexibleservers', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('fmcgdeveastus', 'microsoft.storage', 'Storageaccounts', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('bfsidev-east-us-1-ip', 'microsoft.network', 'Publicipaddresses', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('bfsidev-east-us-1-nsg', 'microsoft.network', 'Networksecuritygroups', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('bfsidev-east-us-1123_z2', 'microsoft.network', 'Networkinterfaces', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('bfsidev-east-us-1', 'microsoft.compute', 'Virtualmachines', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('bfsidev-east-us-1_OsDisk_1_dadb56f41fbf47529e40aa015d8fb734', 'microsoft.compute', 'Virtualmachines', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Compute/virtualMachines/bfsidev-east-us-1', '2025-07-13 17:50:04', '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Compute/virtualMachines/bfsidev-east-us-1', '2025-07-13 17:50:04'), ('basicNsgbfsidev-east-us-1124_z2', 'microsoft.network', 'Networksecuritygroups', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('bfsidev-east-us-1124_z2', 'microsoft.network', 'Networkinterfaces', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('basicNsgsoteria-1-dev-vm1793_z2', 'microsoft.network', 'Networksecuritygroups', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('soteria-1-dev-vm1793_z2', 'microsoft.network', 'Networkinterfaces', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('wiproccs-dsvm-nsg', 'microsoft.network', 'Networksecuritygroups', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('wiproccs-dsvm-ip', 'microsoft.network', 'Publicipaddresses', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('wiproccs-dsvm271_z1', 'microsoft.network', 'Networkinterfaces', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('wiproccs-dsvm', 'microsoft.compute', 'Virtualmachines', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('wiproccs-dsvm_OsDisk_1_5702e1652f7b4109a7d178ca2ab73745', 'microsoft.compute', 'Virtualmachines', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Compute/virtualMachines/wiproccs-dsvm', '2025-07-13 17:50:04', '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Compute/virtualMachines/wiproccs-dsvm', '2025-07-13 17:50:04'), ('soteriaapi', 'microsoft.apimanagement', 'Service', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('soteria-vm-01-nsg', 'microsoft.network', 'Networksecuritygroups', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('soteria-vm-01-ip', 'microsoft.network', 'Publicipaddresses', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('soteria-vm-01444_z1', 'microsoft.network', 'Networkinterfaces', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('soteria-vm-01', 'microsoft.compute', 'Virtualmachines', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('soteria-vm-01_OsDisk_1_163d9f166118484b9fe707869f1d0277', 'microsoft.compute', 'Virtualmachines', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Compute/virtualMachines/soteria-vm-01', '2025-07-13 17:50:04', '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Compute/virtualMachines/soteria-vm-01', '2025-07-13 17:50:04'), ('soteria-vm-02-nsg', 'microsoft.network', 'Networksecuritygroups', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('soteria-vm-02-ip', 'microsoft.network', 'Publicipaddresses', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('soteria-vm-02318_z1', 'microsoft.network', 'Networkinterfaces', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('soteria-vm-02', 'microsoft.compute', 'Virtualmachines', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('soteria-vm-02_OsDisk_1_87dffbf7601042d38c91cc3fab2c3c9e', 'microsoft.compute', 'Virtualmachines', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Compute/virtualMachines/soteria-vm-02', '2025-07-13 17:50:04', '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Compute/virtualMachines/soteria-vm-02', '2025-07-13 17:50:04'), ('soteria-lb-pip', 'microsoft.network', 'Publicipaddresses', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('soteria-lb-01', 'microsoft.network', 'Loadbalancers', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('bfsipostgresql', 'microsoft.dbforpostgresql', 'Flexibleservers', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('traecluster', 'microsoft.dbforpostgresql', 'Servergroupsv2', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('traeapi', 'microsoft.apimanagement', 'Service', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('asset1', 'microsoft.keyvault', 'Vaults', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('wiproccsfhir', 'microsoft.healthcareapis', 'Services', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('traeasset', 'microsoft.signalrservice', 'Signalr', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('ASP-RGEastUSSoteria1-a1d8', 'microsoft.web', 'Serverfarms', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('HaloApp', 'microsoft.web', 'Sites', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('ASP-RGEastUSSoteria1-90cc', 'microsoft.web', 'Serverfarms', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('lab45ChatApp', 'microsoft.web', 'Sites', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('traeservicebus', 'microsoft.servicebus', 'Namespaces', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('soteriaservicebus', 'microsoft.servicebus', 'Namespaces', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('traeeventhubs', 'microsoft.eventhub', 'Namespaces', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('traeappinsights', 'microsoft.insights', 'Components', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('soteriaappinsights', 'microsoft.insights', 'Components', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('Application Insights Smart Detection', 'microsoft.insights', 'Actiongroups', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'global', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('pip-vnet-east-us-soteria-1-eastus-private-subnet-1-soteria-1', 'microsoft.network', 'Publicipaddresses', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('soteria-win-nic', 'microsoft.network', 'Networkinterfaces', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('soteria-win', 'microsoft.compute', 'Virtualmachines', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('soteria-win_OsDisk_1_60fb41f491ed4fa5937dfad18088e81a', 'microsoft.compute', 'Virtualmachines', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Compute/virtualMachines/soteria-win', '2025-07-13 17:50:04', '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-Soteria-1/providers/Microsoft.Compute/virtualMachines/soteria-win', '2025-07-13 17:50:04')]
+<iterator object azure.core.paging.ItemPaged at 0x7fdeea55f310>
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/NetworkWatcherRG/providers/Microsoft.Network/networkWatchers/NetworkWatcher_eastus', 'name': 'NetworkWatcher_eastus', 'type': 'Microsoft.Network/networkWatchers', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name NetworkWatcher_eastus
+resource_type: Microsoft.Network asset_type: Networkwatchers
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/NetworkWatcherRG/providers/microsoft.network/networkWatchers/NetworkWatcher_eastus/flowLogs/NSG-VirtualMachines-3-rg-east-us-soteria-1-flowlog', 'name': 'NetworkWatcher_eastus/NSG-VirtualMachines-3-rg-east-us-soteria-1-flowlog', 'type': 'microsoft.network/networkWatchers/flowLogs', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name NetworkWatcher_eastus/NSG-VirtualMachines-3-rg-east-us-soteria-1-flowlog
+resource_type: microsoft.network asset_type: Networkwatchers/flowlogs
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/NetworkWatcherRG/providers/Microsoft.OperationalInsights/workspaces/TrafficAnalyticsWorkspace-eastus', 'name': 'TrafficAnalyticsWorkspace-eastus', 'type': 'Microsoft.OperationalInsights/workspaces', 'location': 'eastus', 'extended_location': None, 'tags': None, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name TrafficAnalyticsWorkspace-eastus
+resource_type: Microsoft.OperationalInsights asset_type: Workspaces
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/NetworkWatcherRG/providers/Microsoft.Storage/storageAccounts/bfsiprodeastus', 'name': 'bfsiprodeastus', 'type': 'Microsoft.Storage/storageAccounts', 'location': 'eastus', 'extended_location': None, 'tags': {'test': 'self-heal', 'env': 'test'}, 'plan': None, 'properties': None, 'kind': 'StorageV2', 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeea55fc40>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name bfsiprodeastus
+resource_type: Microsoft.Storage asset_type: Storageaccounts
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/NetworkWatcherRG/providers/microsoft.network/networkWatchers/NetworkWatcher_eastus/flowLogs/NSG-VirtualMachines-2-rg-east-us-soteria-1-flowlog', 'name': 'NetworkWatcher_eastus/NSG-VirtualMachines-2-rg-east-us-soteria-1-flowlog', 'type': 'microsoft.network/networkWatchers/flowLogs', 'location': 'eastus', 'extended_location': None, 'tags': {'env': 'test', 'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name NetworkWatcher_eastus/NSG-VirtualMachines-2-rg-east-us-soteria-1-flowlog
+resource_type: microsoft.network asset_type: Networkwatchers/flowlogs
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/NetworkWatcherRG/providers/Microsoft.Storage/storageAccounts/inventory12345', 'name': 'inventory12345', 'type': 'Microsoft.Storage/storageAccounts', 'location': 'eastus', 'extended_location': None, 'tags': {}, 'plan': None, 'properties': None, 'kind': 'StorageV2', 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeea55fdc0>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name inventory12345
+resource_type: Microsoft.Storage asset_type: Storageaccounts
+________________
+batch: [('NetworkWatcher_eastus', 'microsoft.network', 'Networkwatchers', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('NetworkWatcher_eastus/NSG-VirtualMachines-3-rg-east-us-soteria-1-flowlog', 'microsoft.network', 'Networkwatchers/flowlogs', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('TrafficAnalyticsWorkspace-eastus', 'microsoft.operationalinsights', 'Workspaces', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('bfsiprodeastus', 'microsoft.storage', 'Storageaccounts', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('NetworkWatcher_eastus/NSG-VirtualMachines-2-rg-east-us-soteria-1-flowlog', 'microsoft.network', 'Networkwatchers/flowlogs', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('inventory12345', 'microsoft.storage', 'Storageaccounts', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04')]
+<iterator object azure.core.paging.ItemPaged at 0x7fdeec4c9df0>
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-WMSLAB-1/providers/Microsoft.Network/publicIPAddresses/default', 'name': 'default', 'type': 'Microsoft.Network/publicIPAddresses', 'location': 'eastus', 'extended_location': None, 'tags': {'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeec929d90>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name default
+resource_type: Microsoft.Network asset_type: Publicipaddresses
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-WMSLAB-1/providers/Microsoft.Network/natGateways/NG-WMSLAB-1', 'name': 'NG-WMSLAB-1', 'type': 'Microsoft.Network/natGateways', 'location': 'eastus', 'extended_location': None, 'tags': {'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeec929550>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name NG-WMSLAB-1
+resource_type: Microsoft.Network asset_type: Natgateways
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-WMSLAB-1/providers/Microsoft.Network/virtualNetworks/VNet-East-US-WMSLAB-1', 'name': 'VNet-East-US-WMSLAB-1', 'type': 'Microsoft.Network/virtualNetworks', 'location': 'eastus', 'extended_location': None, 'tags': {'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name VNet-East-US-WMSLAB-1
+resource_type: Microsoft.Network asset_type: Virtualnetworks
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-WMSLAB-1/providers/Microsoft.KeyVault/vaults/wiproccsasset2', 'name': 'wiproccsasset2', 'type': 'Microsoft.KeyVault/vaults', 'location': 'eastus', 'extended_location': None, 'tags': {'env': 'test', 'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name wiproccsasset2
+resource_type: Microsoft.KeyVault asset_type: Vaults
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-WMSLAB-1/providers/Microsoft.Web/sites/snakeLadderapp', 'name': 'snakeLadderapp', 'type': 'Microsoft.Web/sites', 'location': 'eastus', 'extended_location': None, 'tags': {'env': 'test', 'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': 'app,linux', 'managed_by': None, 'sku': None, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name snakeLadderapp
+resource_type: Microsoft.Web asset_type: Sites
+________________
+resource: {'additional_properties': {}, 'id': '/subscriptions/1128ac1e-2822-4693-b31a-570f9c739cbb/resourceGroups/RG-East-US-WMSLAB-1/providers/Microsoft.EventHub/namespaces/soteriaeventhubs', 'name': 'soteriaeventhubs', 'type': 'Microsoft.EventHub/namespaces', 'location': 'eastus', 'extended_location': None, 'tags': {'env': 'test', 'test': 'self-heal'}, 'plan': None, 'properties': None, 'kind': None, 'managed_by': None, 'sku': <azure.mgmt.resource.resources.v2024_11_01.models._models_py3.Sku object at 0x7fdeec929130>, 'identity': None, 'created_time': None, 'changed_time': None, 'provisioning_state': None}
+_______________________
+name soteriaeventhubs
+resource_type: Microsoft.EventHub asset_type: Namespaces
+________________
+batch: [('default', 'microsoft.network', 'Publicipaddresses', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('NG-WMSLAB-1', 'microsoft.network', 'Natgateways', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('VNet-East-US-WMSLAB-1', 'microsoft.network', 'Virtualnetworks', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('wiproccsasset2', 'microsoft.keyvault', 'Vaults', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('snakeLadderapp', 'microsoft.web', 'Sites', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04'), ('soteriaeventhubs', 'microsoft.eventhub', 'Namespaces', '1128ac1e-2822-4693-b31a-570f9c739cbb', 'Azure', 'eastus', 'None', '2025-07-13 17:50:04', 'None', '2025-07-13 17:50:04')]
+<iterator object azure.core.paging.ItemPaged at 0x7fdeec945a30>
+batch: []
+endtime 2025-07-13 17:51:20.491314
+Elapsed time: 0:01:16.199289
+azure_native_scheduler.py executed successfully. Running carg_alerts.py...
